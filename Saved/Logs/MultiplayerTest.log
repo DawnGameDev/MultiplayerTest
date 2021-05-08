@@ -6476,3 +6476,396 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.08-12.12.03:384][130]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
 [2021.05.08-12.13.46:149][386]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Ramp_StaticMesh)
 [2021.05.08-12.13.47:449][526]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2021.05.08-12.29.15:735][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2021.05.08-12.29.15:771][395]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MainMenu.MainMenu
+[2021.05.08-12.29.15:771][395]Cmd: MAP LOAD FILE="../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.08-12.29.15:771][395]LightingResults: New page: Lighting Build
+[2021.05.08-12.29.15:771][395]LoadErrors: New page: Loading map: MainMenu.umap
+[2021.05.08-12.29.15:795][395]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.15:795][395]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.15:795][395]MapCheck: New page: Map Check
+[2021.05.08-12.29.15:795][395]LightingResults: New page: Lighting Build
+[2021.05.08-12.29.15:828][395]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.08-12.29.15:834][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.98ms
+[2021.05.08-12.29.15:835][395]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenu'.
+[2021.05.08-12.29.15:931][395]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.08-12.29.15:931][395]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.15:969][395]LogUObjectHash: Compacting FUObjectHashTables data took   3.76ms
+[2021.05.08-12.29.15:975][395]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.08-12.29.15:975][395]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.159ms to complete.
+[2021.05.08-12.29.15:975][395]LogFileHelpers: Loading map 'MainMenu' took 0.204
+[2021.05.08-12.29.17:623][585]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.08-12.29.17:629][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.08-12.29.17:629][585]PIE: New page: PIE session: MainMenu (May 8, 2021, 12:29:17 AM)
+[2021.05.08-12.29.17:629][585]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2021.05.08-12.29.17:631][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001340s)
+[2021.05.08-12.29.17:631][585]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.17:632][585]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2021.05.08-12.29.17:632][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002383s)
+[2021.05.08-12.29.17:669][585]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2021.05.08-12.29.17:670][585]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.08-12.29.17:671][585]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.08-06.29.17
+[2021.05.08-12.29.17:671][585]LogWorld: Bringing up level for play took: 0.000383
+[2021.05.08-12.29.17:672][585]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.05.08-12.29.17:672][585]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.05.08-12.29.17:672][585]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.05.08-12.29.17:672][585]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.05.08-12.29.17:672][585]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.17:672][585]LogNet: GameNetDriver IpNetDriver_44 IpNetDriver listening on port 17777
+[2021.05.08-12.29.17:672][585]PIE: Server logged in
+[2021.05.08-12.29.17:672][585]PIE: Play in editor total start time 0.044 seconds.
+[2021.05.08-12.29.17:673][585]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.08-12.29.17:674][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.08-12.29.17:674][585]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.08-12.29.17:674][585]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.08-12.29.17:681][585]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.08-12.29.17:681][585]LogAudioMixer: Display: 1: FrontRight
+[2021.05.08-12.29.17:703][585]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.08-12.29.17:704][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.08-12.29.17:704][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.08-12.29.17:704][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.08-12.29.17:704][585]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.08-12.29.17:704][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.08-12.29.17:704][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.08-12.29.17:719][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.08-12.29.17:719][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.08-12.29.17:719][585]LogInit: FAudioDevice initialized.
+[2021.05.08-12.29.17:719][585]LogAudio: Display: Audio Device (ID: 18) registered with world 'Untitled'.
+[2021.05.08-12.29.17:729][585]LogNet: Browse: 127.0.0.1:17777/Game/MainMenu
+[2021.05.08-12.29.17:729][585]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.05.08-12.29.17:729][585]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.05.08-12.29.17:729][585]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.17:729][585]LogNet: Game client on port 17777, rate 100000
+[2021.05.08-12.29.17:729][585]PIE: Client logged in
+[2021.05.08-12.29.17:730][585]PIE: Play in editor total start time 0.102 seconds.
+[2021.05.08-12.29.17:731][585]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.08-12.29.17:731][585]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.08-12.29.17:731][585]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.08-12.29.17:731][585]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.08-12.29.17:736][585]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.08-12.29.17:736][585]LogAudioMixer: Display: 1: FrontRight
+[2021.05.08-12.29.17:752][585]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.08-12.29.17:752][585]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.08-12.29.17:752][585]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.08-12.29.17:752][585]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.08-12.29.17:753][585]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.08-12.29.17:753][585]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.08-12.29.17:753][585]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.08-12.29.17:768][585]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.08-12.29.17:768][585]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.08-12.29.17:768][585]LogInit: FAudioDevice initialized.
+[2021.05.08-12.29.17:768][585]LogAudio: Display: Audio Device (ID: 19) registered with world 'Untitled'.
+[2021.05.08-12.29.17:826][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-12.29.17:826][585]LogNet: Browse: 127.0.0.1:17777/Game/MainMenu
+[2021.05.08-12.29.17:827][585]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.05.08-12.29.17:827][585]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.05.08-12.29.17:827][585]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.17:827][585]LogNet: Game client on port 17777, rate 100000
+[2021.05.08-12.29.17:829][585]PIE: Client logged in
+[2021.05.08-12.29.17:831][585]PIE: Play in editor total start time 0.203 seconds.
+[2021.05.08-12.29.17:832][585]LogOnline: OSS: Creating online subsystem instance for: :Context_41
+[2021.05.08-12.29.18:751][690]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49549
+[2021.05.08-12.29.18:751][690]LogHandshake: SendConnectChallenge. Timestamp: 1.137218, Cookie: 050097147240071152130175198188025190032190173176170080043160
+[2021.05.08-12.29.18:752][690]LogHandshake: SendChallengeResponse. Timestamp: 1.137218, Cookie: 050097147240071152130175198188025190032190173176170080043160
+[2021.05.08-12.29.18:759][691]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49549
+[2021.05.08-12.29.18:759][691]LogHandshake: SendChallengeAck. InCookie: 050097147240071152130175198188025190032190173176170080043160
+[2021.05.08-12.29.18:759][691]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49549
+[2021.05.08-12.29.18:760][691]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.18:760][691]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 05/08/21 06:29:18, [UNetConnection] RemoteAddr: 127.0.0.1:49549, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:760][691]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49549, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:760][691]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: PendingNetDriver IpNetDriver_45, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:768][692]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_0_MainMenu.MainMenu: Accepted
+[2021.05.08-12.29.18:768][692]LogNet: Remote platform little endian=1
+[2021.05.08-12.29.18:768][692]LogNet: This platform little endian=1
+[2021.05.08-12.29.18:768][692]LogOnline: OSS: Creating online subsystem instance for: :Context_42
+[2021.05.08-12.29.18:776][693]LogNet: Login request: ?Name=DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874 userId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874 platform: NULL
+[2021.05.08-12.29.18:777][693]LogNet: Welcomed by server (Level: /Game/UEDPIE_0_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2021.05.08-12.29.18:777][693]LogLoad: LoadMap: 127.0.0.1:17777/Game/UEDPIE_0_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2021.05.08-12.29.18:777][693]LogWorld: BeginTearingDown for /Temp/Untitled_17
+[2021.05.08-12.29.18:777][693]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.18:777][693]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.18:810][693]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.08-12.29.18:814][693]LogUObjectHash: Compacting FUObjectHashTables data took   3.93ms
+[2021.05.08-12.29.18:817][693]LogAudio: Display: Audio Device (ID: 18) registered with world 'MainMenu'.
+[2021.05.08-12.29.18:818][693]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.18:819][693]LogWorld: Bringing World /Game/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.08-06.29.18
+[2021.05.08-12.29.18:819][693]LogWorld: Bringing up level for play took: 0.000239
+[2021.05.08-12.29.18:820][693]LogLoad: Took 0.042532 seconds to LoadMap(/Game/UEDPIE_0_MainMenu)
+[2021.05.08-12.29.18:839][694]LogNet: Client netspeed is 100000
+[2021.05.08-12.29.18:839][694]LogNet: Join request: /Game/MainMenu?Name=DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874?SplitscreenCount=1
+[2021.05.08-12.29.18:840][694]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.18:841][694]LogNet: Join succeeded: DESKTOP-9GBTS8N-5237
+[2021.05.08-12.29.18:855][695]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49550
+[2021.05.08-12.29.18:855][695]LogHandshake: SendConnectChallenge. Timestamp: 1.240563, Cookie: 236142151016232253117253072129109138232045160100131152127043
+[2021.05.08-12.29.18:858][695]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.18:859][695]LogHandshake: SendChallengeResponse. Timestamp: 1.240563, Cookie: 236142151016232253117253072129109138232045160100131152127043
+[2021.05.08-12.29.18:866][696]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49550
+[2021.05.08-12.29.18:866][696]LogHandshake: SendChallengeAck. InCookie: 236142151016232253117253072129109138232045160100131152127043
+[2021.05.08-12.29.18:866][696]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49550
+[2021.05.08-12.29.18:866][696]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.18:866][696]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 05/08/21 06:29:18, [UNetConnection] RemoteAddr: 127.0.0.1:49550, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:866][696]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49550, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:868][696]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: PendingNetDriver IpNetDriver_46, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.18:874][697]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_0_MainMenu.MainMenu: Accepted
+[2021.05.08-12.29.18:874][697]LogNet: Remote platform little endian=1
+[2021.05.08-12.29.18:874][697]LogNet: This platform little endian=1
+[2021.05.08-12.29.18:875][697]LogOnline: OSS: Creating online subsystem instance for: :Context_43
+[2021.05.08-12.29.18:882][698]LogNet: Login request: ?Name=DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3 userId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3 platform: NULL
+[2021.05.08-12.29.18:883][698]LogNet: Welcomed by server (Level: /Game/UEDPIE_0_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2021.05.08-12.29.18:884][698]LogLoad: LoadMap: 127.0.0.1:17777/Game/UEDPIE_0_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2021.05.08-12.29.18:884][698]LogWorld: BeginTearingDown for /Temp/Untitled_18
+[2021.05.08-12.29.18:884][698]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.18:884][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.18:918][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.08-12.29.18:922][698]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2021.05.08-12.29.18:925][698]LogAudio: Display: Audio Device (ID: 19) registered with world 'MainMenu'.
+[2021.05.08-12.29.18:926][698]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.18:927][698]LogWorld: Bringing World /Game/UEDPIE_2_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.08-06.29.18
+[2021.05.08-12.29.18:927][698]LogWorld: Bringing up level for play took: 0.000200
+[2021.05.08-12.29.18:927][698]LogLoad: Took 0.043616 seconds to LoadMap(/Game/UEDPIE_0_MainMenu)
+[2021.05.08-12.29.18:947][699]LogNet: Client netspeed is 100000
+[2021.05.08-12.29.18:947][699]LogNet: Join request: /Game/MainMenu?Name=DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3?SplitscreenCount=1
+[2021.05.08-12.29.18:947][699]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.18:949][699]LogNet: Join succeeded: DESKTOP-9GBTS8N-A589
+[2021.05.08-12.29.18:950][699]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.18:966][700]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.19:899][809]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.23:852][252]LogSlate: Window 'MultiplayerTest Preview [NetMode: Client 2]  (64-bit/Windows) ' being destroyed
+[2021.05.08-12.29.23:860][252]LogWorld: BeginTearingDown for /Game/UEDPIE_2_MainMenu
+[2021.05.08-12.29.23:895][252]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.23:895][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.23:901][252]LogNet: World NetDriver shutdown IpNetDriver_46 [GameNetDriver]
+[2021.05.08-12.29.23:901][252]LogNet: DestroyNamedNetDriver IpNetDriver_46 [GameNetDriver]
+[2021.05.08-12.29.23:901][252]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: GameNetDriver IpNetDriver_46, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3, Channels: 11, Time: 2021.05.08-12.29.23
+[2021.05.08-12.29.23:901][252]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_41, Driver: GameNetDriver IpNetDriver_46, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3
+[2021.05.08-12.29.23:901][252]LogExit: GameNetDriver IpNetDriver_46 shut down
+[2021.05.08-12.29.23:902][252]LogWorld: BeginTearingDown for /Game/UEDPIE_1_MainMenu
+[2021.05.08-12.29.23:902][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-12.29.23:902][252]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.23:903][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.23:911][252]LogNet: World NetDriver shutdown IpNetDriver_45 [GameNetDriver]
+[2021.05.08-12.29.23:911][252]LogNet: DestroyNamedNetDriver IpNetDriver_45 [GameNetDriver]
+[2021.05.08-12.29.23:911][252]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: GameNetDriver IpNetDriver_45, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874, Channels: 11, Time: 2021.05.08-12.29.23
+[2021.05.08-12.29.23:911][252]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_40, Driver: GameNetDriver IpNetDriver_45, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874
+[2021.05.08-12.29.23:911][252]LogExit: GameNetDriver IpNetDriver_45 shut down
+[2021.05.08-12.29.23:912][252]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2021.05.08-12.29.23:912][252]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.23:912][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.23:912][252]LogNet: World NetDriver shutdown IpNetDriver_44 [GameNetDriver]
+[2021.05.08-12.29.23:912][252]LogNet: DestroyNamedNetDriver IpNetDriver_44 [GameNetDriver]
+[2021.05.08-12.29.23:912][252]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49550, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3
+[2021.05.08-12.29.23:912][252]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49550, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3, Channels: 11, Time: 2021.05.08-12.29.23
+[2021.05.08-12.29.23:912][252]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49550, Name: IpConnection_43, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-A589640E4067054129AB8D9F401913F3
+[2021.05.08-12.29.23:913][252]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49549, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874
+[2021.05.08-12.29.23:913][252]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49549, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874, Channels: 11, Time: 2021.05.08-12.29.23
+[2021.05.08-12.29.23:913][252]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49549, Name: IpConnection_42, Driver: GameNetDriver IpNetDriver_44, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-5237F0EF44C81E336651D18BBC673874
+[2021.05.08-12.29.23:913][252]LogExit: GameNetDriver IpNetDriver_44 shut down
+[2021.05.08-12.29.23:913][252]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.08-12.29.23:922][252]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.23:957][252]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.08-12.29.23:958][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.23:959][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.23:980][252]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-12.29.23:980][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.23:981][252]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.24:005][252]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.05.08-12.29.24:029][253]LogPlayLevel: Display: Destroying online subsystem :Context_43
+[2021.05.08-12.29.24:030][253]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2021.05.08-12.29.24:030][253]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2021.05.08-12.29.28:016][668]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.08-12.29.28:021][668]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.08-12.29.28:021][668]PIE: New page: PIE session: MainMenu (May 8, 2021, 12:29:28 AM)
+[2021.05.08-12.29.28:022][668]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainMenu
+[2021.05.08-12.29.28:023][668]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001373s)
+[2021.05.08-12.29.28:024][668]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.28:024][668]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2021.05.08-12.29.28:024][668]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainMenu.MainMenu to /Game/UEDPIE_0_MainMenu.MainMenu (0.002416s)
+[2021.05.08-12.29.28:061][668]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2021.05.08-12.29.28:062][668]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.08-12.29.28:063][668]LogWorld: Bringing World /Game/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.08-06.29.28
+[2021.05.08-12.29.28:063][668]LogWorld: Bringing up level for play took: 0.000285
+[2021.05.08-12.29.28:064][668]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2021.05.08-12.29.28:064][668]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2021.05.08-12.29.28:064][668]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2021.05.08-12.29.28:064][668]LogNet: Created socket for bind address: 0.0.0.0 on port 17777
+[2021.05.08-12.29.28:064][668]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.28:064][668]LogNet: GameNetDriver IpNetDriver_47 IpNetDriver listening on port 17777
+[2021.05.08-12.29.28:064][668]PIE: Server logged in
+[2021.05.08-12.29.28:064][668]PIE: Play in editor total start time 0.044 seconds.
+[2021.05.08-12.29.28:066][668]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.08-12.29.28:066][668]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.08-12.29.28:066][668]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.08-12.29.28:066][668]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.08-12.29.28:071][668]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.08-12.29.28:071][668]LogAudioMixer: Display: 1: FrontRight
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.08-12.29.28:092][668]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.08-12.29.28:092][668]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.08-12.29.28:106][668]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.08-12.29.28:106][668]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.08-12.29.28:106][668]LogInit: FAudioDevice initialized.
+[2021.05.08-12.29.28:106][668]LogAudio: Display: Audio Device (ID: 20) registered with world 'Untitled'.
+[2021.05.08-12.29.28:112][668]LogNet: Browse: 127.0.0.1:17777/Game/MainMenu
+[2021.05.08-12.29.28:112][668]LogInit: WinSock: Socket queue. Rx: 32768 (config 32768) Tx: 32768 (config 32768)
+[2021.05.08-12.29.28:112][668]LogNet: Created socket for bind address: 0.0.0.0 on port 0
+[2021.05.08-12.29.28:112][668]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.28:112][668]LogNet: Game client on port 17777, rate 100000
+[2021.05.08-12.29.28:112][668]PIE: Client logged in
+[2021.05.08-12.29.28:113][668]PIE: Play in editor total start time 0.093 seconds.
+[2021.05.08-12.29.28:113][668]LogOnline: OSS: Creating online subsystem instance for: :Context_44
+[2021.05.08-12.29.29:133][788]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49552
+[2021.05.08-12.29.29:133][788]LogHandshake: SendConnectChallenge. Timestamp: 1.125154, Cookie: 194091128199154192151144130152146010054233136026184064132012
+[2021.05.08-12.29.29:133][788]LogHandshake: SendChallengeResponse. Timestamp: 1.125154, Cookie: 194091128199154192151144130152146010054233136026184064132012
+[2021.05.08-12.29.29:141][789]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:49552
+[2021.05.08-12.29.29:141][789]LogHandshake: SendChallengeAck. InCookie: 194091128199154192151144130152146010054233136026184064132012
+[2021.05.08-12.29.29:141][789]LogNet: Server accepting post-challenge connection from: 127.0.0.1:49552
+[2021.05.08-12.29.29:141][789]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2021.05.08-12.29.29:141][789]LogNet: NotifyAcceptedConnection: Name: MainMenu, TimeStamp: 05/08/21 06:29:29, [UNetConnection] RemoteAddr: 127.0.0.1:49552, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_47, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.29:141][789]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:49552, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_47, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.29:142][789]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: PendingNetDriver IpNetDriver_48, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2021.05.08-12.29.29:149][790]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_0_MainMenu.MainMenu: Accepted
+[2021.05.08-12.29.29:149][790]LogNet: Remote platform little endian=1
+[2021.05.08-12.29.29:149][790]LogNet: This platform little endian=1
+[2021.05.08-12.29.29:150][790]LogOnline: OSS: Creating online subsystem instance for: :Context_45
+[2021.05.08-12.29.29:158][791]LogNet: Login request: ?Name=DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E userId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E platform: NULL
+[2021.05.08-12.29.29:158][791]LogNet: Welcomed by server (Level: /Game/UEDPIE_0_MainMenu, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2021.05.08-12.29.29:158][791]LogLoad: LoadMap: 127.0.0.1:17777/Game/UEDPIE_0_MainMenu?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2021.05.08-12.29.29:158][791]LogWorld: BeginTearingDown for /Temp/Untitled_19
+[2021.05.08-12.29.29:158][791]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.29:158][791]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.29:190][791]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.08-12.29.29:195][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.75ms
+[2021.05.08-12.29.29:196][791]LogAudio: Display: Audio Device (ID: 20) registered with world 'MainMenu'.
+[2021.05.08-12.29.29:197][791]LogAIModule: Creating AISystem for world MainMenu
+[2021.05.08-12.29.29:198][791]LogWorld: Bringing World /Game/UEDPIE_1_MainMenu.MainMenu up for play (max tick rate 0) at 2021.05.08-06.29.29
+[2021.05.08-12.29.29:198][791]LogWorld: Bringing up level for play took: 0.000166
+[2021.05.08-12.29.29:199][791]LogLoad: Took 0.040614 seconds to LoadMap(/Game/UEDPIE_0_MainMenu)
+[2021.05.08-12.29.29:218][792]LogNet: Client netspeed is 100000
+[2021.05.08-12.29.29:218][792]LogNet: Join request: /Game/MainMenu?Name=DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E?SplitscreenCount=1
+[2021.05.08-12.29.29:218][792]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.29:220][792]LogNet: Join succeeded: DESKTOP-9GBTS8N-C8B3
+[2021.05.08-12.29.29:251][794]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2021.05.08-12.29.30:736][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-12.29.30:736][967]LogWorld: BeginTearingDown for /Game/UEDPIE_1_MainMenu
+[2021.05.08-12.29.30:736][967]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.30:736][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.30:745][967]LogNet: World NetDriver shutdown IpNetDriver_48 [GameNetDriver]
+[2021.05.08-12.29.30:745][967]LogNet: DestroyNamedNetDriver IpNetDriver_48 [GameNetDriver]
+[2021.05.08-12.29.30:745][967]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: GameNetDriver IpNetDriver_48, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E, Channels: 9, Time: 2021.05.08-12.29.30
+[2021.05.08-12.29.30:745][967]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_44, Driver: GameNetDriver IpNetDriver_48, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E
+[2021.05.08-12.29.30:745][967]LogExit: GameNetDriver IpNetDriver_48 shut down
+[2021.05.08-12.29.30:745][967]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainMenu
+[2021.05.08-12.29.30:746][967]LogWorld: UWorld::CleanupWorld for MainMenu, bSessionEnded=true, bCleanupResources=true
+[2021.05.08-12.29.30:746][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.30:746][967]LogNet: World NetDriver shutdown IpNetDriver_47 [GameNetDriver]
+[2021.05.08-12.29.30:746][967]LogNet: DestroyNamedNetDriver IpNetDriver_47 [GameNetDriver]
+[2021.05.08-12.29.30:746][967]LogNet: UNetConnection::Cleanup: Closing open connection. [UNetConnection] RemoteAddr: 127.0.0.1:49552, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_47, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E
+[2021.05.08-12.29.30:746][967]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:49552, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_47, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E, Channels: 9, Time: 2021.05.08-12.29.30
+[2021.05.08-12.29.30:746][967]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:49552, Name: IpConnection_45, Driver: GameNetDriver IpNetDriver_47, IsServer: YES, PC: PlayerController_0, Owner: PlayerController_0, UniqueId: NULL:DESKTOP-9GBTS8N-C8B33F824B21184E23A3818776CF834E
+[2021.05.08-12.29.30:747][967]LogExit: GameNetDriver IpNetDriver_47 shut down
+[2021.05.08-12.29.30:747][967]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.08-12.29.30:754][967]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.08-12.29.30:787][967]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.08-12.29.30:788][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.30:789][967]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.08-12.29.30:812][967]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.08-12.29.30:829][968]LogPlayLevel: Display: Destroying online subsystem :Context_45
+[2021.05.08-12.29.30:829][968]LogPlayLevel: Display: Destroying online subsystem :Context_44
+[2021.05.08-12.40.53:672][ 92]BlueprintLog: New page: Compile FoodChainPawn
+[2021.05.08-12.40.53:763][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   6.22ms
+[2021.05.08-12.41.11:073][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   5.78ms
+[2021.05.08-12.41.11:213][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoodChainPawn" FILE="../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset" SILENT=true
+[2021.05.08-12.41.11:297][ 93]LogSavePackage: Moving '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Saved/FoodChainPawn97182D3B4BBAD8ECEB7F5BB7E724995C.tmp' to '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset'
+[2021.05.08-12.41.11:316][ 93]AssetCheck: New page: Asset Save: FoodChainPawn
+[2021.05.08-12.41.11:316][ 93]LogContentValidation: Display: Validating Blueprint /Game/FoodChainPawn.FoodChainPawn
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/MultiUserTakes/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/MultiUserTakes/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:005][473]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.41.15:293][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoodChainPawn" FILE="../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset" SILENT=true
+[2021.05.08-12.41.15:366][473]LogSavePackage: Moving '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Saved/FoodChainPawnB63E00E64EAD4D95CF2908A3BEA3AC8D.tmp' to '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset'
+[2021.05.08-12.41.27:115][473]LogSlate: Window 'Submit Files' being destroyed
+[2021.05.08-12.41.27:495][473]LogSourceControl: commit successful: [master 7ba0b8d] Movement Fix
+[2021.05.08-12.41.27:561][473]SourceControl: [master 7ba0b8d] Movement Fix
+[2021.05.08-12.41.27:561][473]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2021.05.08-12.41.27:567][473]SourceControl: Commited [master 7ba0b8d] Movement Fix.
+[2021.05.08-12.41.27:613][474]AssetCheck: New page: Asset Save: FoodChainPawn
+[2021.05.08-12.41.27:613][474]LogContentValidation: Display: Validating Blueprint /Game/FoodChainPawn.FoodChainPawn
+[2021.05.08-12.45.42:970][423]BlueprintLog: New page: Compile FoodChainPawn
+[2021.05.08-12.45.43:061][423]LogUObjectHash: Compacting FUObjectHashTables data took   6.28ms
+[2021.05.08-12.45.46:951][840]LogUObjectHash: Compacting FUObjectHashTables data took   5.66ms
+[2021.05.08-12.45.47:087][840]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoodChainPawn" FILE="../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset" SILENT=true
+[2021.05.08-12.45.47:162][840]LogSavePackage: Moving '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Saved/FoodChainPawn7D84B8E14DC85609AC678E95DE05F67D.tmp' to '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset'
+[2021.05.08-12.45.47:178][840]AssetCheck: New page: Asset Save: FoodChainPawn
+[2021.05.08-12.45.47:178][840]LogContentValidation: Display: Validating Blueprint /Game/FoodChainPawn.FoodChainPawn
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/FX/Niagara/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Editor/SpeedTreeImporter/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Experimental/MotoSynth/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/AudioSynesthesia/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Synthesis/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/MultiUserTakes/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/MultiUserTakes/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/Takes/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/VirtualProduction/Takes/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:611][192]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content: 'C:/Program Files/Epic Games/UE_4.26/Engine/Plugins/Developer/Concert/ConcertSync/ConcertSyncClient/Content' is outside repository at 'C:/Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest'
+[2021.05.08-12.45.50:905][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FoodChainPawn" FILE="../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset" SILENT=true
+[2021.05.08-12.45.50:988][192]LogSavePackage: Moving '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Saved/FoodChainPawn6E84555D4F1A4DCDDB652F922A5A16DF.tmp' to '../../../../../../Users/matth/Documents/Unreal Projects/MultiplayerTest/MultiplayerTest/Content/FoodChainPawn.uasset'
